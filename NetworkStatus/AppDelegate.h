@@ -7,9 +7,14 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "SimplePingHelper.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+
+@property (strong) NSStatusItem *statusItem;
+
+@property (weak) IBOutlet NSMenu *menuBar;
 
 @end
